@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GTTProject FileFormatRevision="105" ScreenOrientation="PortraitClockwise" ProjectName="GTTProject1" Theme="Glossy" GTTProduct="GTT43A" StartScreenIndex="0" ScreenWidth="272" ScreenHeight="480" UseLoader="False" UseGlobalBitmaps="False" xmlns="clr-namespace:GTT.Project.Common;assembly=GTT.Project.Common" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <GTTProject.GlobalRegions>
+    <RegionSlotCollection />
+  </GTTProject.GlobalRegions>
+  <GTTProject.GlobalFontSlots>
+    <FontSlotCollection />
+  </GTTProject.GlobalFontSlots>
+  <GTTProject.GlobalBitmapSlots>
+    <BitmapSlotCollection />
+  </GTTProject.GlobalBitmapSlots>
+  <GTTProject.GlobalLabelSlots>
+    <LabelSlotCollection />
+  </GTTProject.GlobalLabelSlots>
+  <GTTProject.GlobalTraceSlots>
+    <TraceSlotCollection />
+  </GTTProject.GlobalTraceSlots>
+  <GTTProject.GlobalAnimationInstances>
+    <AnimationInstanceCollection />
+  </GTTProject.GlobalAnimationInstances>
+  <GTTProject.GlobalAnimationSlots>
+    <AnimationSlotCollection />
+  </GTTProject.GlobalAnimationSlots>
+  <GTTProject.GlobalNineSliceSlots>
+    <NineSliceSlotCollection />
+  </GTTProject.GlobalNineSliceSlots>
+  <GTTProject.Screens>
+    <ScreenCollection>
+      <Screen BackgroundColor="#FFFF0000" FontWindowWidth="480" FontWindowHeight="272" Name="Screen1">
+        <Screen.OnPreLoadAction>
+          <GTTActionList />
+        </Screen.OnPreLoadAction>
+        <Screen.OnPostLoadAction>
+          <GTTActionList />
+        </Screen.OnPostLoadAction>
+        <Screen.Regions>
+          <RegionSlotCollection />
+        </Screen.Regions>
+        <Screen.Keys>
+          <KeySlotCollection />
+        </Screen.Keys>
+        <Screen.LinkList>
+          <GTTLinkList />
+        </Screen.LinkList>
+        <Screen.BarGraphs>
+          <BarGraphSlotCollection />
+        </Screen.BarGraphs>
+        <Screen.Labels>
+          <LabelSlotCollection />
+        </Screen.Labels>
+        <Screen.Fonts>
+          <FontSlotCollection />
+        </Screen.Fonts>
+        <Screen.Traces>
+          <TraceSlotCollection />
+        </Screen.Traces>
+        <Screen.AnimationSlots>
+          <AnimationSlotCollection />
+        </Screen.AnimationSlots>
+        <Screen.AnimationInstances>
+          <AnimationInstanceCollection />
+        </Screen.AnimationInstances>
+        <Screen.NineSliceSlots>
+          <NineSliceSlotCollection />
+        </Screen.NineSliceSlots>
+        <Screen.Bitmaps>
+          <BitmapSlotCollection />
+        </Screen.Bitmaps>
+        <Screen.Children>
+          <GuiElementCollection>
+            <GuiAdvancedLabel PreferedLabelID="3" LabelText="Test label " LabelFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" LabelSize="13" LabelRotation="0" LabelHorizontalAlignment="Center" LabelVerticalAlignment="Center" LabelColour="#FFEEF0F2" LabelBackgroundColour="#FF5D5D5D" DynamicText="True" BlankLabel="True" CachedCharacters="" PersistText="False" ElementName="dynamic test screen 1" Theme="{x:Null}" Top="230" Left="45" ZOrder="0" Width="150" Height="80" />
+            <GuiButton25 PersistText="False" FocusColour="#FFF02E2C" DisabledColour="#FFBABABF" HasFocus="False" ButtonIsEnabled="True" DownKeyID="69" CachedCharacters="" LockWidthHeight="True" ButtonFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" PreferedRegionID="9" UseUpScreenLink="False" UseDownScreenLink="False" UpScreenIndex="0" DownScreenIndex="0" UseUpBuzzer="False" UseDownBuzzer="False" UseUpMotor="False" UseDownMotor="False" UpFrequency="500" DownFrequency="500" UpDuration="500" DownDuration="500" UseUpBrightness="False" UseDownBrightness="False" UpBrightness="255" DownBrightness="255" ImageStretch="Uniform" ImageAlignment="Center" CornerSize="1000" BorderSize="2" Text="Button" ButtonTextSize="12" TextColour="#FFEEF0F2" ButtonColour="#FF5D5D5D" Bitmap="{x:Null}" ImageTransparency="1" ImageScale="1" ToggleEnable="False" ElementName="circle button screeen one" Theme="(Project Default)" Top="352" Left="91" ZOrder="0" Width="100" Height="100">
+              <GuiButton25.OnUpAction>
+                <GTTActionList />
+              </GuiButton25.OnUpAction>
+              <GuiButton25.OnDownAction>
+                <GTTActionList />
+              </GuiButton25.OnDownAction>
+              <GuiButton25.ActionScriptUp>
+                <ScriptAction />
+              </GuiButton25.ActionScriptUp>
+              <GuiButton25.ActionScriptDown>
+                <ScriptAction />
+              </GuiButton25.ActionScriptDown>
+            </GuiButton25>
+          </GuiElementCollection>
+        </Screen.Children>
+      </Screen>
+      <Screen BackgroundColor="#FF0000FF" FontWindowWidth="272" FontWindowHeight="480" Name="second screenn">
+        <Screen.OnPreLoadAction>
+          <GTTActionList />
+        </Screen.OnPreLoadAction>
+        <Screen.OnPostLoadAction>
+          <GTTActionList />
+        </Screen.OnPostLoadAction>
+        <Screen.Regions>
+          <RegionSlotCollection />
+        </Screen.Regions>
+        <Screen.Keys>
+          <KeySlotCollection />
+        </Screen.Keys>
+        <Screen.LinkList>
+          <GTTLinkList />
+        </Screen.LinkList>
+        <Screen.BarGraphs>
+          <BarGraphSlotCollection />
+        </Screen.BarGraphs>
+        <Screen.Labels>
+          <LabelSlotCollection />
+        </Screen.Labels>
+        <Screen.Fonts>
+          <FontSlotCollection />
+        </Screen.Fonts>
+        <Screen.Traces>
+          <TraceSlotCollection />
+        </Screen.Traces>
+        <Screen.AnimationSlots>
+          <AnimationSlotCollection />
+        </Screen.AnimationSlots>
+        <Screen.AnimationInstances>
+          <AnimationInstanceCollection />
+        </Screen.AnimationInstances>
+        <Screen.NineSliceSlots>
+          <NineSliceSlotCollection />
+        </Screen.NineSliceSlots>
+        <Screen.Bitmaps>
+          <BitmapSlotCollection />
+        </Screen.Bitmaps>
+        <Screen.Children>
+          <GuiElementCollection>
+            <GuiBasicButton25 FocusColour="#FFF02E2C" DisabledColour="#FFBABABF" HasFocus="False" ButtonIsEnabled="True" DownKeyID="69" PreferedRegionID="257" ButtonUpImageString="Images\Push_Button_Up_Red.png" ButtonDownImageString="Images\Push_Button_Down_Red.png" ButtonUpImageStretch="Uniform" ButtonDownImageStretch="Uniform" ButtonUpImageHorizontalAlignment="Center" ButtonDownImageHorizontalAlignment="Center" ButtonUpImageVerticalAlignment="Center" ButtonDownImageVerticalAlignment="Center" UseUpScreenLink="False" UseDownScreenLink="False" UpScreenIndex="0" DownScreenIndex="0" UseUpBuzzer="False" UseDownBuzzer="False" UseUpMotor="False" UseDownMotor="False" UpFrequency="500" DownFrequency="500" UpDuration="500" DownDuration="500" UseUpBrightness="False" UseDownBrightness="False" UpBrightness="255" DownBrightness="255" LockWidthHeight="False" ElementName="image buttton screen two" Theme="{x:Null}" Top="194" Left="103" ZOrder="0" Width="120" Height="120">
+              <GuiBasicButton25.OnUpAction>
+                <GTTActionList />
+              </GuiBasicButton25.OnUpAction>
+              <GuiBasicButton25.OnDownAction>
+                <GTTActionList />
+              </GuiBasicButton25.OnDownAction>
+              <GuiBasicButton25.ActionScriptUp>
+                <ScriptAction />
+              </GuiBasicButton25.ActionScriptUp>
+              <GuiBasicButton25.ActionScriptDown>
+                <ScriptAction />
+              </GuiBasicButton25.ActionScriptDown>
+            </GuiBasicButton25>
+            <GuiAdvancedLabel PreferedLabelID="27" LabelText="set point " LabelFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" LabelSize="24" LabelRotation="0" LabelHorizontalAlignment="Center" LabelVerticalAlignment="Center" LabelColour="#FFEEF0F2" LabelBackgroundColour="#FF5D5D5D" DynamicText="True" BlankLabel="True" CachedCharacters="" PersistText="False" ElementName="set point label test" Theme="{x:Null}" Top="98" Left="68" ZOrder="0" Width="150" Height="80" />
+          </GuiElementCollection>
+        </Screen.Children>
+      </Screen>
+    </ScreenCollection>
+  </GTTProject.Screens>
+  <GTTProject.GlobalBarGraphs>
+    <BarGraphSlotCollection />
+  </GTTProject.GlobalBarGraphs>
+</GTTProject>
